@@ -1,0 +1,171 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    // "height": 37, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    // "margin": 10,
+    "spacing": 0, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["custom/home", "cpu", "memory", "wlr/workspaces", "wlr/taskbar", "hyprland/window" ],
+    "modules-center": ["custom/launcher"],
+    "modules-right": ["network", "backlight", "pulseaudio", "clock", "battery", "custom/power" ],
+    // Modules configuration
+        "wlr/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        //"format": "{icon}",
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": [],
+            "10": []
+        }
+    },
+
+    "wlr/taskbar": {
+         "format": "{icon}",
+         "tooltip": false,
+         "all-outputs": "false",
+        // "icon-size": 40,
+         "icon-theme": "ePapirus",
+         "tooltip-format": "{title}",
+         "on-click": "activate",
+         "on-click-middle": "close",
+         "ignore-list": [
+         "Alacritty",
+         "kitty",
+         "org.wezfurlong.wezterm"
+    ],
+
+    "app_ids-mapping": {
+      "firefoxdeveloperedition": "firefox-developer-edition"
+    }
+},
+
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+
+    "clock": {
+        "tooltip": false,
+        "interval": 1,
+        "format": "{: %Y-%m-%d %H:%M:%S}"
+    },
+
+    "cpu": {
+        "interval": 3,
+        "format": " {usage}%",
+        "tooltip": false,
+        "on-click": "alacritty -e gotop",
+    },
+
+    "memory": {
+        "interval": 3,
+        "tooltip": false,
+        "format": " {}%",
+        "on-click": "alacritty -e htop",
+    },
+
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon}{percent}%",
+        "tooltip": false,
+        "format-icons": ["󱩎 ", "󱩏 ", "󱩐 ", "󱩑 ", "󱩒 ", "󱩓 ", "󱩔 ", "󱩕 ", "󱩖 ", "󰛨 "],
+    },
+    "battery": {
+        "interval": 1,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 20,
+        },
+        "format": "{icon}  {capacity}%",
+        "tooltip": false,
+        "format-charging": "⚡{capacity}%",
+        "format-plugged": "⚡{capacity}%",
+        "format-alt": "{icon}  {time}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": " ",
+        "format-ethernet": "",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "tooltip": false,
+        "format-linked": "{ifname} (No IP)  ",
+        "format-disconnected": "⚠ Disconnected ",
+        "on-click": "alacritty -e iwctl",
+    },
+    "pulseaudio": {
+        "scroll-step": 1, // %, can be a float
+        "format": "{format_source} {icon} {volume}%",
+        "format-bluetooth": "{icon} {volume}% {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "{format_source} ",
+        "format-source": " {volume}%",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol",
+        "on-click-right": "volumectl toggle-mute",
+    },
+
+    "custom/launcher":{
+        "format": " ",
+        "tooltip": false,
+        "on-click": "bash ~/.config/rofi/scripts/launcher_t3",
+        "on-click-right": "killall rofi"
+    },
+
+   "custom/home":{
+       "format": " ",
+        "tooltip": false,
+        "on-click": "alacritty",
+   },
+
+   "custom/power":{
+        "tooltip": false,
+        "format": " ",
+        "on-click": "bash ~/.config/rofi/scripts/powermenu_t4",
+        "on-click-right": "killall rofi"
+    },
+}
+
