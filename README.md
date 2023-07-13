@@ -13,6 +13,11 @@ hyprland configuration file
 详细参考配置文件
 
 # 截图
+![Untitled](screenshot/8.png)
+
+![Untitled](screenshot/9.png)
+
+![Untitled](screenshot/10.png)
 
 ![Untitled](screenshot/1.png)
 
@@ -28,8 +33,3 @@ hyprland configuration file
 
 ![Untitled](screenshot/7.png)
 
-![Untitled](screenshot/8.png)
-
-![Untitled](screenshot/9.png)
-
-![Untitled](screenshot/10.png)
