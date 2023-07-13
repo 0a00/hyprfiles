@@ -66,7 +66,7 @@ button:hover {
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0);
 	  color: rgba(240,128,128,1.000);
 }
 

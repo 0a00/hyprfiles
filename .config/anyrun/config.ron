@@ -7,16 +7,16 @@ Config(
   width: Absolute(800), 
   
   // Where Anyrun is located on the screen: Top, Center
-  position: Center, 
+  position: Top, 
 
   // How much the runner is shifted vertically  
-  vertical_offset: Absolute(-200), 
+  vertical_offset: Absolute(200), 
 
   // Hide match and plugin info icons  
   hide_icons: false, 
 
   // ignore exclusive zones, f.e. Waybar  
-  ignore_exclusive_zones: true, 
+  ignore_exclusive_zones: false, 
 
   // Layer shell layer: Background, Bottom, Top, Overlay  
   layer: Overlay, 
@@ -25,10 +25,10 @@ Config(
   hide_plugin_info: true, 
 
   // Close window when a click outside the main box is received
-  close_on_click: true,
+  close_on_click: false,
 
   // Show search results immediately when Anyrun starts
-  show_results_immediately: false,
+  show_results_immediately: true,
 
   // Limit amount of entries shown in total
   max_entries: None,
@@ -37,6 +37,5 @@ Config(
   // `<anyrun config dir>/plugins` directory or with an absolute path to just load the file the path points to.
   plugins: [
     "libapplications.so",
-    "libshell.so",
   ],
 )

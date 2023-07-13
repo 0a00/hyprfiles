@@ -159,6 +159,7 @@
        "format": " ",
         "tooltip": false,
         "on-click": "alacritty",
+        "on-click": "bash ~/.config/hypr/script/radombg.sh",
    },
 
    "custom/power":{

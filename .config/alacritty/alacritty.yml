@@ -12,7 +12,7 @@
 #  - /path/to/alacritty.yml
 #
 import:
- - ~/.config/alacritty/themes/themes/breeze.yaml
+ - ~/.config/alacritty/themes/themes/wombat.yaml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -24,7 +24,7 @@ env:
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  TERM: 'xterm-256color'
+  TERM: 'alacritty'
 
 
 
@@ -73,7 +73,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.1
+  opacity: 0.5
 
   # Startup Mode (changes require restart)
   #
@@ -124,7 +124,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: "Source Code Pro Medium"
+    family: "JetBrains Mono Light"
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -135,7 +135,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: "Source Code Pro Medium"
+    family: "JetBrains Mono Light"
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
@@ -146,7 +146,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: "Source Code Pro Medium"
+    family: "JetBrains Mono Light"
 
     # The `style` can be specified to pick a specific face.
     #style: Italic
@@ -157,7 +157,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: "Source Code Pro Medium"
+    family: "JetBrains Mono Light"
 
     # The `style` can be specified to pick a specific face.
     #style: Bold Italic

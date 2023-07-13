@@ -1,24 +1,29 @@
 #window {
   background-color: rgba(0, 0, 0, 0);
   font-size: 20px;
+  color: rgba(255,255,255,1.000);
+  
 }
-entry{
-    color: rgba(255,255,255,1.000);
-    background: rgba(0,0,0,0) ;
-    padding-top: 10px;
-    padding-bottom: 10px;
 
+#entry {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255,255,255,1.000);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#match {
+  color: rgba(255,255,255,1.000);
 }
 
 box#main {
   border-radius: 10px;
-  background: rgba(0,0,0,0.5) ;
-  color: rgba(255,255,255,1.000);
+  background-color: rgba(0, 0, 0, 0);
+
 }
 
 list#main {
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 list#plugin {

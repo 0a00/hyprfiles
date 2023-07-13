@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Breeze'
+config.color_scheme = 'VisiBone (terminal.sexy)'
 
 
 -- Controls whether the tab bar is enabled
@@ -43,7 +43,7 @@ config.window_padding = {
 }
 
 -- Window Transparent
-config.window_background_opacity = 0.1
+config.window_background_opacity = 0.5
 config.text_background_opacity = 1.0
 
 -- font set

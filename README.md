@@ -27,3 +27,9 @@ hyprland configuration file
 ![Untitled](screenshot/6.png)
 
 ![Untitled](screenshot/7.png)
+
+![Untitled](screenshot/8.png)
+
+![Untitled](screenshot/9.png)
+
+![Untitled](screenshot/10.png)
