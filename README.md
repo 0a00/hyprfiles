@@ -7,7 +7,7 @@ hyprland configuration file
 - 音量，亮度控制：Avizo （自带了一个修改音量亮度后的通知）
 - 通知：Dunst
 - 状态栏：Waybar
-- 壁纸：Hyprpaper
+- 壁纸：Swww
 - 。。。。。。。。。。。。。。。。。。。。。。。。。。。
 
 详细参考配置文件

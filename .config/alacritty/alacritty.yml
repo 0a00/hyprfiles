@@ -124,7 +124,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: "JetBrains Mono Light"
+    family: "JetBrainsMono Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -135,7 +135,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: "JetBrains Mono Light"
+    family: "JetBrainsMono Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
@@ -146,7 +146,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: "JetBrains Mono Light"
+    family: "JetBrainsMono Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     #style: Italic
@@ -157,7 +157,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: "JetBrains Mono Light"
+    family: "JetBrainsMono Nerd Font"
 
     # The `style` can be specified to pick a specific face.
     #style: Bold Italic
@@ -387,16 +387,16 @@ draw_bold_text_with_bright_colors: true
   # When set to `true`, selected text will be copied to the primary clipboard.
   #save_to_clipboard: false
 
-#cursor:
+cursor:
   # Cursor style
-  #style:
+  style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    #shape: Block
+    shape: Underline
 
     # Cursor blinking state
     #
@@ -425,7 +425,7 @@ draw_bold_text_with_bright_colors: true
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
-  #unfocused_hollow: true
+  unfocused_hollow: false
 
   # Thickness of the cursor relative to the cell width as floating point number
   # from `0.0` to `1.0`.
@@ -476,7 +476,7 @@ draw_bold_text_with_bright_colors: true
 #
 # Terminal hints can be used to find text or hyperlink in the visible part of
 # the terminal and pipe it to other applications.
-#hints:
+# hints:
   # Keys used for the hint labels.
   #alphabet: "jfkdls;ahgurieowpq"
 
@@ -763,7 +763,8 @@ draw_bold_text_with_bright_colors: true
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
+ - {key: N, mods: Control|Shift, action: CreateNewWindow}
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
