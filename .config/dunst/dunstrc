@@ -7,7 +7,7 @@
 
     progress_bar_height = 5
     progress_bar_corner_radius = 45
-    icon_corner_radius = 45 
+    icon_corner_radius = 0
 
     separator_height = 2
 
