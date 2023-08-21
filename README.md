@@ -8,6 +8,7 @@ hyprland configuration file
 - 通知：Dunst
 - 状态栏：Waybar
 - 壁纸：Swww
+- 锁屏：Gtklock
 
 详细参考配置文件
 
