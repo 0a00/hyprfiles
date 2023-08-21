@@ -13,7 +13,7 @@
         "wlr/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
-        "active-only": false,
+        "active-only": true,
         "on-click": "activate",
         //"format": "{icon}",
         "persistent_workspaces": {
@@ -80,7 +80,7 @@
     "clock": {
         "tooltip": false,
         "interval": 1,
-        "format": "{: %Y-%m-%d %H:%M:%OS}"
+        "format": "{: %Y-%m-%d %H:%M:%OS}",
     },
 
     "cpu": {
@@ -101,7 +101,7 @@
         // "device": "acpi_video1",
         "format": "{icon}{percent}%",
         "tooltip": false,
-        "format-icons": ["󱩎 ", "󱩏 ", "󱩐 ", "󱩑 ", "󱩒 ", "󱩓 ", "󱩔 ", "󱩕 ", "󱩖 ", "󰛨 "],
+        "format-icons": [" "],
     },
     "battery": {
         "interval": 1,
@@ -112,8 +112,8 @@
         },
         "format": "{icon}  {capacity}%",
         "tooltip": false,
-        "format-charging": "⚡{capacity}%",
-        "format-plugged": "⚡{capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": " {capacity}%",
         "format-alt": "{icon}  {time}",
         "format-icons": ["", "", "", "", ""]
     },

@@ -17,14 +17,14 @@
     frame_width = 2
 
     frame_color = "#adff2f"
-    background = "#4c2f4f4f"
+    background = "#4c191970"
     foreground = "#ffffff"
-    separator_color = "#4c2f4f4f"
+    separator_color = "#4c191970"
     highlight = "#ffffff"
 
     sort = yes
     idle_threshold = 120
-    font = monospace 10
+    font = monospace 13
     line_height = 0
     markup = full
     alignment = left
@@ -51,15 +51,15 @@
     timeout = 5
 
 [urgency_low]
-    background = "#4c2f4f4f"
+    background = "#4c191970"
     foreground = "#e0ffff"
 
 [urgency_normal]
-    background = "#4c2f4f4f"
+    background = "#4c191970"
     foreground = "#E8E3E3"
     frame_color = "#ff5faee3"
 
 [urgency_critical]
-    background = "#4c2f4f4f"
+    background = "#4c191970"
     foreground = "#E8E3E3"
     frame_color = "#DD8F6E"

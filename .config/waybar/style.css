@@ -7,12 +7,12 @@
     min-height: 0px;
     margin-top: 1px;
     margin-bottom: 1px;
+	  color: rgba(175,238,238,1.000);
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.3);
+    background-color: rgba(43, 48, 59, 0.1);
     border-bottom: 0px solid rgba(100, 114, 125, 0);
-    color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -20,6 +20,7 @@ window#waybar {
 window#waybar.hidden {
     opacity: 0.2;
 }
+
 
 /*
 window#waybar.empty {
@@ -44,14 +45,14 @@ button {
     /* Avoid rounded borders under each button name */
     border-radius: 10px;
 	  transition: none;
-	  color: rgba(0,0,0,0.200);
 }
+
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
 	  background: rgba(255,255,255,0.100);
-	  color: rgba(0,0,0,0.200);
 }
+
 
 #workspaces button {
     margin-top: 4px;
@@ -61,22 +62,24 @@ button:hover {
 	  padding-left: 10px;
 	  padding-right: 10px;
 	  transition: none;
-    color: rgba(255,255,255,0.500);
 	  background: rgba(0,0,0,0.200);
 }
 
+
+
 #workspaces button:hover {
     background: rgba(0, 0, 0, 0);
-	  color: rgba(240,128,128,1.000);
 }
+
 
 #workspaces button.active {
     /*background-color: rgba(220,220,220,0.300); */
-	  color: rgba(240,128,128,1.000);
+  background-color: rgba(255, 255, 255, 0.1);
+  
 }
 
 #workspaces button.urgent {
-    background-color: #eb4d4b;
+    background-color: #FFA07A;
 }
 
 #mode {
@@ -89,7 +92,6 @@ button:hover {
     transition: none;
     padding-left: 50px;
     padding-right: 50px;
-    color: #00BFFF;
     background: transparent;
 }
 #taskbar {
@@ -108,6 +110,8 @@ button:hover {
 	  background: rgba(0,0,0,0);
   
 }
+
+
 
 #mpd {
     padding: 0 10px;
@@ -132,8 +136,7 @@ button:hover {
 	padding-left: 15px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(240,128,128,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 }
 
 
@@ -145,8 +148,8 @@ button:hover {
 	padding-left: 15px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(240,128,128,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
+
 }
 
 #custom-media {
@@ -173,8 +176,7 @@ button:hover {
 	padding-left: 10px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(173,255,47,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 	/*background: #1A1826;*/
 }
 
@@ -187,25 +189,25 @@ button:hover {
 	padding-right: 10px;
 	transition: none;
 	color: rgba(175,238,238,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 }
 
 
 #battery.charging, #battery.plugged {
 	  color: rgba(175,238,238,1.000);
-    background-color: rgba(0,0,0,0.200);
+    background-color: rgba(255,255,255,0.100);
 }
 
 @keyframes blink {
     to {
-        background-color: rgba(0,0,0,0.200);
-	      color: rgba(255,228,225,1.000);
+        background-color: rgba(255,255,255,0.100);
+	      color: rgba(255,255,255,1.000);
     }
 }
 
 #battery.critical:not(.charging) {
 	  color: red;
-	  background: rgba(0,0,0,0.200);
+	  background: rgba(255,255,255,0.100);
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -225,8 +227,7 @@ label:focus {
 	padding-left: 10px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(255,99,71,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 }
 
 #memory {
@@ -237,8 +238,7 @@ label:focus {
 	padding-left: 10px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(255,255,0,0.800);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 }
 
 #disk {
@@ -253,8 +253,7 @@ label:focus {
 	padding-left: 10px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(238,130,238,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 }
 
 #network {
@@ -262,14 +261,13 @@ label:focus {
   margin-bottom: 4px;
   border-radius: 10px;
 	transition: none;
-	color: rgba(100,149,237,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
   padding-right: 10px;
   padding-left: 10px;
 }
 
 #network.disconnected {
-    /* background-color: #f53c3c; */
+    background-color: rgba(255,255,255,0.100);
     color: #f53c3c;
 }
 
@@ -281,13 +279,11 @@ label:focus {
 	padding-left: 10px;
 	padding-right: 10px;
 	transition: none;
-	color: rgba(255,140,0,1.000);
-	background: rgba(0,0,0,0.200);
+	background: rgba(255,255,255,0.100);
 }
 
 #pulseaudio.muted {
-	  background: rgba(0,0,0,0.200);
-	  color: rgba(255,140,0,1.000);
+	  background: rgba(255,255,255,0.100);
 }
 
 #wireplumber {

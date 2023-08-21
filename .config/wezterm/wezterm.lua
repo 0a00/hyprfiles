@@ -15,6 +15,11 @@ end
 -- For example, changing the color scheme:
 config.color_scheme = 'VisiBone (terminal.sexy)'
 
+-- Color set
+config.colors = {
+  selection_fg = 'black',
+  selection_bg = '#fffacd',
+}
 
 -- Controls whether the tab bar is enabled
 config.enable_tab_bar = false
@@ -22,7 +27,8 @@ config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 
 -- gpu end
-config.front_end = "OpenGL"
+-- config.front_end = "WebGpu"
+
 
 -- animation set
 config.animation_fps = 60
@@ -53,7 +59,6 @@ config.line_height = 1.1
 config.dpi = 96.0
 
 -- scroll set
-config.alternate_buffer_wheel_scroll_speed = 1
 
 -- window set 
 config.window_decorations = 'NONE'
