@@ -1,5 +1,5 @@
 window {
-   background-image: url("/home/fixmin/.config/hypr/images/2.png");
+    background-image: url("/home/fixmin/.config/hypr/images/1.png");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -11,7 +11,7 @@ window {
 	border: 0px solid black;
 	border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
-	background-color: rgba(255,255,255,0.1);
+	background-color: rgba(255,255,255,0.4);
 }
 
 #input-field {
@@ -19,3 +19,6 @@ window {
 
 }
 
+#clock-label {
+  color: rgba(240,248,255,0.5) ;
+}

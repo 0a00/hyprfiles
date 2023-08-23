@@ -1,5 +1,5 @@
 # hyprfiles
-hyprland configuration file
+hyprland 合成器下，桌面环境的一系列配置文件
 # 配置说明
 
 - 终端：Alacritty，Wezterm
@@ -33,3 +33,6 @@ hyprland configuration file
 
 ![Untitled](screenshot/7.png)
 
+# 感谢
+
+- https://github.com/adi1090x/rofi

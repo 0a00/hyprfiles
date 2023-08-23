@@ -35,17 +35,17 @@ rofi_cmd() {
 }
 
 # Confirmation CMD
-confirm_cmd() {
-	rofi -dmenu \
-		-p 'Confirmation' \
-		-mesg 'Are you Sure?' \
-		-theme ${dir}/shared/confirm.rasi
-}
+#confirm_cmd() {
+#	rofi -dmenu \
+#		-p 'Confirmation' \
+#		-mesg 'Are you Sure?' \
+#		-theme ${dir}/shared/confirm.rasi
+#}
 
 # Ask for confirmation
-confirm_exit() {
-	echo -e "$yes\n$no" | confirm_cmd
-}
+#confirm_exit() {
+#	echo -e "$yes\n$no" | confirm_cmd
+#}
 
 # Pass variables to rofi dmenu
 run_rofi() {
@@ -54,8 +54,8 @@ run_rofi() {
 
 # Execute Command
 run_cmd() {
-	selected="$(confirm_exit)"
-	if [[ "$selected" == "$yes" ]]; then
+	selected="yes"
+	if [[ "$selected" == "yes" ]]; then
 		if [[ $1 == '--shutdown' ]]; then
 			systemctl poweroff
 		elif [[ $1 == '--reboot' ]]; then
@@ -65,8 +65,8 @@ run_cmd() {
 			amixer set Master mute
 			systemctl suspend
 		elif [[ $1 == '--logout' ]]; then
-			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
-				openbox --exit
+			if [[ "$DESKTOP_SESSION" == 'hyprland' ]]; then
+				hyprctl dispatch  exit
 			elif [[ "$DESKTOP_SESSION" == 'bspwm' ]]; then
 				bspc quit
 			elif [[ "$DESKTOP_SESSION" == 'i3' ]]; then
@@ -84,14 +84,14 @@ run_cmd() {
 chosen="$(run_rofi)"
 case ${chosen} in
     $shutdown)
-		run_cmd --shutdown
+		shutdown now
         ;;
     $reboot)
-		run_cmd --reboot
+		reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
+		if [[ -x '/usr/bin/gtklock' ]]; then
+			gtklock
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi
@@ -100,6 +100,6 @@ case ${chosen} in
 		run_cmd --suspend
         ;;
     $logout)
-		run_cmd --logout
+		hyprctl dispatch  exit
         ;;
 esac
