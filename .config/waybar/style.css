@@ -62,20 +62,23 @@ button:hover {
 	  padding-left: 10px;
 	  padding-right: 10px;
 	  transition: none;
-	  background: rgba(0,0,0,0.200);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 
+#workspaces button.visible {
+}
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0);
 }
 
 
 #workspaces button.active {
-    /*background-color: rgba(220,220,220,0.300); */
-  background-color: rgba(255, 255, 255, 0.1);
   
+}
+
+#workspaces button.label {
+  color: rgba(255,127,0,1);
 }
 
 #workspaces button.urgent {

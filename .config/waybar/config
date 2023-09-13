@@ -6,28 +6,16 @@
     // "margin": 10,
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["custom/home", "cpu", "memory", "wlr/workspaces", "wlr/taskbar", "hyprland/window" ],
+    "modules-left": ["custom/home", "cpu", "memory", "custom/media", "hyprland/workspaces", "wlr/taskbar", "hyprland/window" ],
     "modules-center": ["custom/launcher"],
     "modules-right": ["network", "backlight", "pulseaudio", "clock", "battery", "custom/power" ],
     // Modules configuration
-        "wlr/workspaces": {
+    "hyprland/workspaces": {
         "disable-scroll": true,
-        "all-outputs": true,
+        "all-outputs": false,
         "active-only": true,
         "on-click": "activate",
         //"format": "{icon}",
-        "persistent_workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
-            "9": [],
-            "10": []
-        }
     },
 
     "wlr/taskbar": {
@@ -129,11 +117,11 @@
     },
     "pulseaudio": {
         "scroll-step": 1, // %, can be a float
-        "format": "{format_source} {icon} {volume}%",
+        "format": "{format_source}{icon} {volume}%",
         "format-bluetooth": "{icon} {volume}% {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": "{format_source} ",
-        "format-source": " {volume}%",
+        "format-muted": "{format_source}",
+        //"format-source": " {volume}%",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
@@ -142,10 +130,11 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": [""]
         },
         "on-click": "pavucontrol",
         "on-click-right": "volumectl toggle-mute",
+        "tooltip": false,
     },
 
     "custom/launcher":{
@@ -154,6 +143,7 @@
         "on-click": "bash ~/.config/rofi/scripts/launcher_t3",
         "on-click-right": "killall rofi"
     },
+
 
    "custom/home":{
        "format": " ",

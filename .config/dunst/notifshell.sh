@@ -13,8 +13,8 @@ if [ $battery1 -gt 90 ] && [ ${batstat} -eq 9 ]; then
   /usr/bin/dunstify -i /usr/share/icons/breeze/devices/64/battery.svg 'Battery: > 90 ' -h int:value:90
   break
 
-elif [ $battery1 -lt 25 ] && [ ${batstat} -eq 12 ]; then
-  /usr/bin/dunstify -i /usr/share/icons/breeze/devices/64/battery.svg 'Battery: < 25 ' -h int:value:25
+elif [ $battery1 -lt 20 ] && [ ${batstat} -eq 12 ]; then
+  /usr/bin/dunstify -i /usr/share/icons/breeze/devices/64/battery.svg 'Battery: < 20 ' -h int:value:20
   break 
 
 fi
