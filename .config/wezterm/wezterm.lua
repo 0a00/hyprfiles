@@ -18,7 +18,7 @@ config.color_scheme = 'VisiBone (terminal.sexy)'
 -- Color set
 config.colors = {
   selection_fg = 'black',
-  selection_bg = '#fffacd',
+  selection_bg = '#FFFFFF',
 }
 
 -- Controls whether the tab bar is enabled
