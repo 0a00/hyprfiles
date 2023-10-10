@@ -49,7 +49,7 @@ config.window_padding = {
 }
 
 -- Window Transparent
-config.window_background_opacity = 0.5
+config.window_background_opacity = 0.0
 config.text_background_opacity = 1.0
 
 -- font set
