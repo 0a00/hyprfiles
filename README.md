@@ -15,8 +15,7 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/0a00/hyprfiles?style=for-the-badge&color=%23DEB887">
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/0a00/hyprfiles?style=for-the-badge&color=%23DB7093">
 <img alt="GitHub" src="https://img.shields.io/github/license/0a00/hyprfiles?style=for-the-badge&color=%2387CEFF">
-  
-
+    
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/0a00/hyprfiles?style=for-the-badge&color=%23EEAEEE">
 </div>
 
