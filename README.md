@@ -6,6 +6,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=10&size=18&pause=1000&random=false&width=500&lines=Custom+configuration+file+for+hyprpland+synthesizer" alt="Typing SVG" /></a>
 
 </div>
+
 <div style="text-align:center">
 <img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/0a00/hyprfiles?style=for-the-badge&color=%23C1FFC1">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/0a00/hyprfiles?style=for-the-badge&color=%23DEB887">
@@ -43,7 +44,7 @@
 ### 锁屏 🔒
 - **[☠️ Gtklock](https://github.com/jovanlanik/gtklock)**
 ## 参考图像
-![](screenshot/)
+![all](./screenshot/)
 
 
 ## Star History
