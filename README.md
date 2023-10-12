@@ -1,4 +1,7 @@
-![[Pasted image 20231011184303.png]]
+<div align="center">
+<img src="./screenshot/head.png" >
+</div>
+
 <div align="center">
 
 <a href="https://github.com/0a00/hyprfiles">📂： Hyprland 桌面下一系列配置文件</a>
