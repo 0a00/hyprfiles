@@ -56,9 +56,6 @@
 ![5](./screenshot/5.png) 
 ![6](./screenshot/6.png)
 ![7](./screenshot/7.png)
-![8](./screenshot/8.png)
-![9](./screenshot/9.png)
-![10](./screenshot/10.png)
 
 
 ## Star History
