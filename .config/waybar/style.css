@@ -8,10 +8,11 @@
     margin-top: 1px;
     margin-bottom: 1px;
 	  color: rgba(175,238,238,1.000);
+
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-bottom: 0px solid rgba(100, 114, 125, 0);
     transition-property: background-color;
     transition-duration: .5s;
