@@ -31,8 +31,8 @@ config.use_fancy_tab_bar = false
 
 
 -- animation set
-config.animation_fps = 60
-config.max_fps = 60
+-- config.animation_fps = 60
+-- config.max_fps = 60
 
 -- enable wayland
 config.enable_wayland = true

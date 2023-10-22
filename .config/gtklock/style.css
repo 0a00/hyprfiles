@@ -1,9 +1,8 @@
 window {
-   background-image: url("/home/fixmin/.config/hypr/images/3.png");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-   background-color: rgba(255,255,255,0.1);
+   background-color: rgba(255,255,255,0);
 }
 
 #window-box {
