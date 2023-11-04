@@ -16,6 +16,7 @@ window#waybar {
     border-bottom: 0px solid rgba(100, 114, 125, 0);
     transition-property: background-color;
     transition-duration: .5s;
+
 }
 
 window#waybar.hidden {

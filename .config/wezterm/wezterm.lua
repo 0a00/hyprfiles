@@ -17,9 +17,11 @@ config.color_scheme = 'VisiBone (terminal.sexy)'
 
 -- Color set
 config.colors = {
-  selection_fg = 'black',
+  selection_fg = '#000000',
   selection_bg = '#FFFFFF',
 }
+
+
 
 -- Controls whether the tab bar is enabled
 config.enable_tab_bar = false
@@ -27,12 +29,12 @@ config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 
 -- gpu end
--- config.front_end = "WebGpu"
+config.front_end = "OpenGL"
 
 
 -- animation set
--- config.animation_fps = 60
--- config.max_fps = 60
+config.animation_fps = 60
+config.max_fps = 60
 
 -- enable wayland
 config.enable_wayland = true
@@ -53,6 +55,7 @@ config.window_background_opacity = 0.0
 config.text_background_opacity = 1.0
 
 -- font set
+config.	warn_about_missing_glyphs = false
 config.font_size = 12.0
 config.cell_width = 1.1
 config.line_height = 1.1
