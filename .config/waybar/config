@@ -98,12 +98,12 @@
             "warning": 30,
             "critical": 20,
         },
-        "format": "{icon}  {capacity}%",
+        "format": "{icon} {capacity}%",
         "tooltip": false,
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
         "format-alt": "{icon}  {time}",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
@@ -122,7 +122,7 @@
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": "{format_source}",
         //"format-source": " {volume}%",
-        "format-source-muted": "",
+        "format-source-muted": " ",
         "format-icons": {
             "headphone": "",
             "hands-free": "",

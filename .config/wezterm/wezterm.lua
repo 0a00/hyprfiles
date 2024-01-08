@@ -29,25 +29,29 @@ config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 
 -- gpu end
-config.front_end = "OpenGL"
+local gpus = wezterm.gui.enumerate_gpus()
+config.webgpu_preferred_adapter = gpus[3]
+config.front_end = "WebGpu"
+
 
 
 -- animation set
-config.animation_fps = 60
-config.max_fps = 60
 
 -- enable wayland
 config.enable_wayland = true
 
 -- Cursor set
 config.default_cursor_style = 'BlinkingUnderline'
+config.cursor_thickness = 1
 config.force_reverse_video_cursor = true
+config.animation_fps = 60
+
 -- window padding
 config.window_padding = {
-  left = 20,
-  right = 20,
-  top = 20,
-  bottom = 20,
+  left = 50,
+  right = 50,
+  top = 50,
+  bottom = 50,
 }
 
 -- Window Transparent
@@ -59,8 +63,9 @@ config.	warn_about_missing_glyphs = false
 config.font_size = 12.0
 config.cell_width = 1.1
 config.line_height = 1.1
-config.dpi = 96.0
-
+config.dpi = 192.0
+config.adjust_window_size_when_changing_font_size = false
+config.text_background_opacity = 0
 -- scroll set
 
 -- window set 

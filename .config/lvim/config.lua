@@ -3,7 +3,7 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 lvim.transparent_window = true
-lvim.colorscheme = "murphy"
+lvim.colorscheme = "default"
 lvim.builtin.lualine.style = "lvim" -- or "none"
 
 lvim.autocommands = {
