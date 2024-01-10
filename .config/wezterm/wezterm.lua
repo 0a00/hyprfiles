@@ -65,7 +65,7 @@ config.cell_width = 1.1
 config.line_height = 1.1
 config.dpi = 192.0
 config.adjust_window_size_when_changing_font_size = false
-config.text_background_opacity = 0
+config.text_background_opacity = 1.0
 -- scroll set
 
 -- window set 

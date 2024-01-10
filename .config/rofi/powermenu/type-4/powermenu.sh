@@ -91,7 +91,7 @@ case ${chosen} in
         ;;
     $lock)
 		if [[ -x '/usr/bin/gtklock' ]]; then
-			gtklock
+			gtklock -i -b .config/hypr/images/wallhaven-3z2j2d_3840x2400.png   -t %R:%S
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi

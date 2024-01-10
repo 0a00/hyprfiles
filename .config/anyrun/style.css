@@ -10,7 +10,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 0px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);  
   caret-color: rgba(0, 0, 0, 0);
   border-width: 1px;
   border-style: solid;
@@ -36,12 +36,15 @@ box#main {
 list#main {
   background-color: rgba(0, 0, 0, 0.1);
   border-color: rgba(0, 0, 0, 0);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);  
   margin: 10px;
+  font-size: 18px;
 }
 
 list#main row:selected {
   background-color: rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
