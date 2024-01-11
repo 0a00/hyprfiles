@@ -1,6 +1,7 @@
 [global]
     follow = mouse
     width = 400
+    height = 120
     origin = top-right
     offset = 20x20
     indicate_hidden = true
@@ -44,7 +45,7 @@
     show_indicators = true
 
     min_icon_size = 0
-    max_icon_size = 512
+    max_icon_size = 128
 
     icon_path = /usr/share/icons/Papirus-Dark/16x16/status/:/usr/share/icons/Papirus-Dark/16x16/devices/:/usr/share/icons/Papirus-Dark/16x16/actions/:/usr/share/icons/Papirus-Dark/16x16/animations/:/usr/share/icons/Papirus-Dark/16x16/apps/:/usr/share/icons/Papirus-Dark/16x16/categories/:/usr/share/icons/Papirus-Dark/16x16/emblems/:/usr/share/icons/Papirus-Dark/16x16/emotes/:/usr/share/icons/Papirus-Dark/16x16/devices/mimetypes:/usr/share/icons/Papirus-Dark/16x16/panel/:/usr/share/icons/Papirus-Dark/16x16/places/
 
