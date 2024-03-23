@@ -1,7 +1,6 @@
 [global]
     follow = mouse
     width = 400
-    height = 120
     origin = top-right
     offset = 20x20
     indicate_hidden = true

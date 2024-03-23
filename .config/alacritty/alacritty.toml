@@ -1,4 +1,4 @@
-import = ["/home/fixmin/.config/alacritty/themes/github_dark_high_contrast.toml"]
+import = ["/home/fixmin/.config/alacritty/themes/iterm.toml"]
 
 [colors]
 

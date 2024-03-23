@@ -48,14 +48,14 @@ config.animation_fps = 60
 
 -- window padding
 config.window_padding = {
-  left = 50,
-  right = 50,
-  top = 50,
-  bottom = 50,
+  left = 20,
+  right = 10,
+  top = 20,
+  bottom = 20,
 }
 
 -- Window Transparent
-config.window_background_opacity = 0.0
+config.window_background_opacity = 0.5
 config.text_background_opacity = 1.0
 
 -- font set
@@ -63,7 +63,6 @@ config.	warn_about_missing_glyphs = false
 config.font_size = 12.0
 config.cell_width = 1.1
 config.line_height = 1.1
-config.dpi = 192.0
 config.adjust_window_size_when_changing_font_size = false
 config.text_background_opacity = 1.0
 -- scroll set
