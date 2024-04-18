@@ -87,9 +87,9 @@
 
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{icon}{percent}%",
+        "format": "{icon} {percent}%",
         "tooltip": false,
-        "format-icons": [" "],
+        "format-icons": [""],
     },
     "battery": {
         "interval": 1,
@@ -102,7 +102,7 @@
         "tooltip": false,
         "format-charging": " {capacity}%",
         "format-plugged": " {capacity}%",
-        "format-alt": "{icon}  {time}",
+        "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "]
     },
     "network": {
@@ -130,7 +130,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": [""]
+            "default": [" "]
         },
         "on-click": "pavucontrol",
         "on-click-right": "volumectl toggle-mute",
