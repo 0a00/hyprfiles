@@ -89,7 +89,7 @@
         // "device": "acpi_video1",
         "format": "{icon} {percent}%",
         "tooltip": false,
-        "format-icons": [""],
+        "format-icons": [" "],
     },
     "battery": {
         "interval": 1,
@@ -100,8 +100,8 @@
         },
         "format": "{icon} {capacity}%",
         "tooltip": false,
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-plugged": "  {capacity}%",
         "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "]
     },
