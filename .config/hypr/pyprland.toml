@@ -1,0 +1,10 @@
+# enable plug
+[pyprland]
+plugins = [
+    "magnify",
+    "wallpapers",
+]
+
+# config file
+include = ["~/.config/hypr/pypr.d/"]
+

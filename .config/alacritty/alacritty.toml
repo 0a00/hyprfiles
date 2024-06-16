@@ -1,4 +1,5 @@
 import = ["/home/fixmin/.config/alacritty/themes/iterm.toml"]
+live_config_reload = true
 
 [colors]
 
@@ -30,9 +31,11 @@ y = 2
 action = "CreateNewWindow"
 key = "N"
 mods = "Super"
+mode = "AppKeypad"
+
 
 [window]
-decorations = "None"
+decorations = "Transparent"
 opacity = 0.6
 blur = true
 padding = { x = 20 , y = 20}

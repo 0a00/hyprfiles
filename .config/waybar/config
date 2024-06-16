@@ -5,6 +5,7 @@
     // "width": 1280, // Waybar width
     // "margin": 10,
     "spacing": 0, // Gaps between modules (4px)
+    "reload_style_on_change": true,
     // Choose the order of the modules
     "modules-left": ["custom/home", "cpu", "memory", "custom/media", "hyprland/workspaces", "wlr/taskbar", "hyprland/window" ],
     "modules-center": ["custom/launcher"],
@@ -125,8 +126,8 @@
         "format-source-muted": " ",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": " ",
+            "headset": " ",
             "phone": "",
             "portable": "",
             "car": "",
@@ -149,7 +150,7 @@
        "format": " ",
         "tooltip": false,
         "on-click": "alacritty",
-        "on-click": "bash ~/.config/hypr/script/radombg.sh",
+        "on-click": "pypr wall next",
    },
 
    "custom/power":{
