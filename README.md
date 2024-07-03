@@ -25,6 +25,10 @@
 
 </div>
 
+<div align="center">
+  <img src="screenshot/1.png" alt="Screenshot 1" width="800" style="box-shadow: 10px 10px 20px #888888;">
+</div>
+
 ## 特性
 
 -  简洁美观的界面
