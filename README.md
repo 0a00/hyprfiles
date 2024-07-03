@@ -23,8 +23,6 @@
 <br />
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/0a00/hyprfiles?style=for-the-badge&color=%23EEAEEE">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=0a00/hyprfiles&type=Date)](https://star-history.com/#0a00/hyprfiles&Date)
-
 </div>
 
 ## 特性
