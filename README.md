@@ -4,6 +4,25 @@
 
 本仓库包含 Hyprland 合成器的配置文件集合。
 
+---
+
+<div align="center">
+
+<a href="https://github.com/0a00/hyprfiles">📂： Hyprland 桌面下一系列配置文件</a>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=10&size=18&pause=1000&random=false&width=500&lines=Custom+configuration+file+for+hyprpland+synthesizer" alt="Typing SVG" /></a>
+
+<img alt="GitHub last commit (by committer)" src="https://img.shields.io/github/last-commit/0a00/hyprfiles?style=for-the-badge&color=%23C1FFC1">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/0a00/hyprfiles?style=for-the-badge&color=%23DEB887">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/0a00/hyprfiles?style=for-the-badge&color=%23DB7093">
+<img alt="GitHub" src="https://img.shields.io/github/license/0a00/hyprfiles?style=for-the-badge&color=%2387CEFF">
+<br />
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/0a00/hyprfiles?style=for-the-badge&color=%23EEAEEE">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=0a00/hyprfiles&type=Date)](https://star-history.com/#0a00/hyprfiles&Date)
+
+</div>
+
 ## 特性
 
 -  简洁美观的界面
