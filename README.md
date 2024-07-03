@@ -82,3 +82,7 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 ## 许可证
 
 该项目在 MIT 许可证下获得许可。
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=0a00/hyprfiles&type=Date)](https://star-history.com/#0a00/hyprfiles&Date)
