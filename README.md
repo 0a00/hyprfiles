@@ -1,6 +1,76 @@
+# Hyprland Configuration Files
+
 <div align="center">
-<img src="./screenshot/1.png" >
+  <img src="screenshot/1.png" alt="Screenshot 1">
 </div>
+
+This repository contains a collection of configuration files for the Hyprland compositor.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+This configuration provides a highly customized and optimized Hyprland setup, featuring:
+
+- **Clean and minimal aesthetics**
+- **Efficient workflow and keybindings**
+- **Seamless integration with popular applications**
+
+## Installation
+
+1. Clone the repository:
+
+```
+git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
+```
+
+2. Install the required dependencies.
+
+3. Copy the configuration files to your `~/.config/hypr` directory.
+
+## Configuration
+
+The configuration files are well-documented and allow for easy customization. You can adjust various aspects of the setup, including:
+
+- **Keybindings**
+- **Window management**
+- **Appearance**
+- **Applications**
+
+## Screenshots
+
+<div align="center">
+  <img src="screenshot/1.png" alt="Screenshot 1" width="400">
+  <img src="screenshot/2.png" alt="Screenshot 2" width="400">
+  <img src="screenshot/3.png" alt="Screenshot 3" width="400">
+  <img src="screenshot/4.png" alt="Screenshot 4" width="400">
+  <img src="screenshot/5.png" alt="Screenshot 5" width="400">
+  <img src="screenshot/6.png" alt="Screenshot 6" width="400">
+  <img src="screenshot/7.png" alt="Screenshot 7" width="400">
+  <img src="screenshot/8.png" alt="Screenshot 8" width="400">
+  <img src="screenshot/9.png" alt="Screenshot 9" width="400">
+  <img src="screenshot/10.png" alt="Screenshot 10" width="400">
+  <img src="screenshot/11.png" alt="Screenshot 11" width="400">
+  <img src="screenshot/12.png" alt="Screenshot 12" width="400">
+  <img src="screenshot/13.png" alt="Screenshot 13" width="400">
+</div>
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
 
 <div align="center">
 
@@ -18,51 +88,5 @@
 <br />
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/0a00/hyprfiles?style=for-the-badge&color=%23EEAEEE">
 </div>
-
-# 玩的开心 😆
-
-**👻 配置文件仅供参考，使用过程中出现奇奇怪怪的问题导致的事故概不负责哟**
-
-**🍁 存储库记录个人使用 Hyprland 合成器下的一系列配置文件哦**
-
-**💢 或许会有错误，请告诉我，谢谢谢啦啦啦**
-
-**💩 生活愉快，天天开心鸭**
-## 玩的愉快 🍎🌶️🥚🥦🍣🍑🍕🍚🥭🥝🥦🍣🍑🍕🍚
----
-### **窗口管理合成器** 🪟
-- [**🐬 Hyprland**](https://wiki.hyprland.org/)
-### 终端 📟
-- **🤨 [Alacritty](https://github.com/alacritty/alacritty)**
-- **😧 [Wezterm](https://wezfurlong.org/wezterm/features.html)**
-### 应用启动器 🐖
-- 🐦 **[Anyrun](https://github.com/Kirottu/anyrun/)**
-- 🐃 **[Rofi](https://github.com/adi1090x/rofi)**
-### 音量 亮度控制 💣
-- **💬 [Avizo （修改音量 亮度后的一个桌面通知）](https://github.com/misterdanb/avizo)**
-### 通知 🐘
-- **🦈 [Dunst](https://dunst-project.org/)**
-### 状态栏 🐗
-- **🙈 [Waybar](https://github.com/Alexays/Waybar)**
-### 壁纸 🖼️
-- **[🌌 Swww](https://github.com/Horus645/swww)**
-### 锁屏 🔒
-- **[☠️ Gtklock](https://github.com/jovanlanik/gtklock)**
-## 参考图像
-![](./screenshot/1.png)
-![](./screenshot/2.png)
-![](./screenshot/3.png)
-![](./screenshot/4.png)
-![](./screenshot/5.png) 
-![](./screenshot/6.png)
-![](./screenshot/7.png)
-![](./screenshot/8.png)
-![](./screenshot/9.png)
-![](./screenshot/10.png)
-![](./screenshot/11.png)
-![](./screenshot/12.png)
-![](./screenshot/13.png)
-
-## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=0a00/hyprfiles&type=Date)](https://star-history.com/#0a00/hyprfiles&Date)
