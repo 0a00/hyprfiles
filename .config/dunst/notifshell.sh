@@ -4,7 +4,7 @@
 
 for (( i=1; ;i++))
 do
-sleep 10
+sleep 30
 batstat=$(cat /sys/class/power_supply/BAT0/status | wc --bytes)
 let battery1=`cat /sys/class/power_supply/BAT0/capacity`
 for (( i=1 ;i<2 ;i++ ))

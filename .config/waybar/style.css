@@ -1,19 +1,21 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
   border: none;
-  border-radius: 0px;
+  border-radius: 10px;
   font-family: "JetBrainsMono Nerd Font";
   font-size: 16px;
   min-height: 0px;
   margin-top: 1px;
   margin-bottom: 1px;
   color: rgba(175, 238, 238, 1.000);
+}
 
+box {
+  background-color: rgba(0, 0, 0, 0);
 }
 
 window#waybar {
-  background-color: rgba(0, 0, 0, 0.1);
-  border-bottom: 0px solid rgba(100, 114, 125, 0);
+  background-color: rgba(0, 0, 0, 0.0);
   transition-property: background-color;
   transition-duration: .5s;
   margin: 10px;
@@ -37,10 +39,12 @@ window#waybar.termite {
   background-color: #3F3F3F;
 }
 
+/*
 window#waybar.chromium {
   background-color: #000000;
   border: none;
 }
+*/
 
 button {
   /* Use box-shadow instead of border so the text isn't offset */

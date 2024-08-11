@@ -1,8 +1,10 @@
-window {
-  background-color: rgba(255, 255, 255, 0.0);
-  font-size: 20px;
+/* 全局设置 */
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  color: rgba(255, 255, 255, 0.9);
 }
 
+/* 入口框 (GtkEntry) */
 entry {
   background-color: rgba(0, 0, 0, 0.1);
   color: rgba(255, 255, 255, 1.000);
@@ -11,7 +13,9 @@ entry {
   border-radius: 0px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
   caret-color: rgba(0, 0, 0, 0);
-  border-width: 1px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-width: 0px;
   border-style: solid;
   border-top-style: solid;
   border-bottom-style: solid;
@@ -19,42 +23,98 @@ entry {
   margin: 10px;
   margin-bottom: -10px;
   padding: 20px;
-  border-bottom-color: rgba(255, 255, 255, 1);
+  border-bottom-color: rgba(0, 0, 0, 0.0);
 }
 
-match {
-  color: rgba(255, 255, 255, 1.000);
-}
-
-
-box#main {
-  border-radius: 0px;
-  background-color: rgba(0, 0, 0, 0);
+/* 窗口 (GtkWindow) */
+window {
+  background-color: rgba(255, 255, 255, 0.0);
+  /* 白色背景 */
+  font-size: 20px;
+  box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.8), 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 
 list#main {
-  background-color: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 0.1);
   border-color: rgba(0, 0, 0, 0);
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 9px;
   font-size: 16px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 list#main row:selected {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 
 
 list#plugin {
   background-color: rgba(0, 0, 0, 0);
 }
 
-label#match-desc {
-  font-size: 10px;
+/* 布局的“主要”部分 (GtkListBox and GtkBox) */
+main GtkListBox {
+  background-color: #ffffff;
+  /* 白色背景 */
+  color: #000000;
+  /* 黑色字体 */
 }
 
-label#plugin {
+main GtkBox {
+  background-color: #ffffff;
+  /* 白色背景 */
+}
+
+/* 插件部分 (GtkLabel, GtkBox, GtkImage) */
+plugin GtkLabel {
+  color: #007acc;
+  /* 蓝色字体 */
+  font-weight: bold;
+}
+
+plugin GtkBox {
+  background-color: #e0e0e0;
+  /* 浅灰色背景 */
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+plugin GtkImage {
+  margin-right: 10px;
+}
+
+/* 匹配项 (GtkBox and GtkImage) */
+match GtkBox {
+  background-color: #f9f9f9;
+  /* 更浅的灰色背景 */
+  border: 1px solid #dddddd;
+  /* 浅灰色边框 */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+match GtkImage {
+  margin-right: 10px;
+}
+
+/* 匹配项标题 (GtkLabel) */
+match-title GtkLabel {
   font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  /* 深灰色字体 */
+}
+
+/* 匹配项描述 (GtkLabel) */
+match-desc GtkLabel {
+  font-size: 12px;
+  color: #666666;
+  /* 灰色字体 */
 }

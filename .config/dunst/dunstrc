@@ -35,7 +35,7 @@
     line_height = 0
     markup = full
     alignment = left
-    vertical_alignment = top
+    vertical_alignment = center
     show_age_threshold = 60
     word_wrap = true
     stack_duplicates = true
