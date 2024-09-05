@@ -97,7 +97,7 @@ button:hover {
   transition: none;
   padding-left: 50px;
   padding-right: 50px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.0);
 }
 
 #taskbar {

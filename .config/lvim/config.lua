@@ -8,14 +8,14 @@ lvim.transparent_window = true
 lvim.colorscheme = "NeoSolarized"
 lvim.builtin.lualine.style = "lvim" -- or "none"
 
-lvim.autocommands = {
-  {
-    "BufEnter", -- see `:h autocmd-events`
-    {           -- this table is passed verbatim as `opts` to `nvim_create_autocmd`
-      command = "highlight CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE",
-    }
-  },
-}
+-- lvim.autocommands = {
+--   {
+--     "BufEnter", -- see `:h autocmd-events`
+--     {           -- this table is passed verbatim as `opts` to `nvim_create_autocmd`
+--       command = "highlight CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE",
+--     }
+--   },
+-- }
 
 
 -- plugins

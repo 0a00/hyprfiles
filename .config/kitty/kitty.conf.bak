@@ -183,7 +183,7 @@ modify_font cell_height 110%
 #: arrive at a pixel value. There must be four values corresponding to
 #: thin, normal, thick, and very thick lines.
 
-# undercurl_style thin-sparse
+undercurl_style thin-dense
 
 #: The style with which undercurls are rendered. This option takes the
 #: form (thin|thick)-(sparse|dense). Thin and thick control the
@@ -191,7 +191,7 @@ modify_font cell_height 110%
 #: curl oscillates. With sparse the curl will peak once per character,
 #: with dense twice.
 
-# text_composition_strategy platform
+text_composition_strategy platform 
 
 #: Control how kitty composites text glyphs onto the background color.
 #: The default value of platform tries for text rendering as close to
@@ -226,7 +226,7 @@ modify_font cell_height 110%
 #: it looks good. Then switch to a light theme and adjust the first
 #: parameter until the perceived thickness matches the dark theme.
 
-# text_fg_override_threshold 0
+text_fg_override_threshold 0
 
 #: The minimum accepted difference in luminance between the foreground
 #: and background color, below which kitty will override the
@@ -682,7 +682,7 @@ touch_scroll_multiplier 4.0
 
 #: Performance tuning {{{
 
-# repaint_delay 10
+repaint_delay 1
 
 #: Delay between screen updates (in milliseconds). Decreasing it,
 #: increases frames-per-second (FPS) at the cost of more CPU usage.
@@ -700,7 +700,7 @@ touch_scroll_multiplier 4.0
 #: in full screen programs that redraw the entire screen on each loop,
 #: because kitty is so fast that partial screen updates will be drawn.
 
-# sync_to_monitor yes
+sync_to_monitor yes
 
 #: Sync screen updates to the refresh rate of the monitor. This
 #: prevents screen tearing
@@ -1143,7 +1143,7 @@ background_opacity 0.0
 #: this option when reloading the config will only work if
 #: dynamic_background_opacity was enabled in the original config.
 
-# background_blur 0
+background_blur 1
 
 #: Set to a positive value to enable background blur (blurring of the
 #: visuals behind a transparent window) on platforms that support it.
@@ -1171,7 +1171,7 @@ background_opacity 0.0
 #: When background image is scaled, whether linear interpolation
 #: should be used.
 
-# dynamic_background_opacity no
+dynamic_background_opacity yes
 
 #: Allow changing of the background_opacity dynamically, using either
 #: keyboard shortcuts (increase_background_opacity and

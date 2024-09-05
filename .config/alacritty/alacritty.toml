@@ -36,7 +36,7 @@ mode = "AppKeypad"
 
 [window]
 decorations = "Transparent"
-opacity = 0.6
+opacity = 0.5
 blur = true
 padding = { x = 20 , y = 20}
 dynamic_padding = true

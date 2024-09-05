@@ -1,6 +1,6 @@
 [wallpapers]
 path = "~/.config/hypr/images/"
-interval = 10 # change every hour
+interval = 60 # change time ,m
 extensions = ["jpg", "jpeg", "png"]
 recurse = true
 unique = true

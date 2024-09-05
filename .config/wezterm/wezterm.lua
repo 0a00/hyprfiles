@@ -59,7 +59,29 @@ config.window_background_opacity = 0.5
 config.text_background_opacity = 1.0
 
 -- font set
-config.	warn_about_missing_glyphs = false
+wezterm.font_with_fallback({
+  -- /usr/share/fonts/TTF/JetBrainsMono-Italic.ttf, FontConfig
+  { family = "JetBrains Mono", style = "Italic" },
+
+  -- /usr/share/fonts/OTF/TakaoPGothic.ttf, FontConfig
+  -- Will synthesize italics
+  -- AKA: "Takao Pゴシック"
+  "TakaoPGothic",
+
+  -- /usr/share/fonts/TTF/JetBrainsMono-Regular.ttf, FontConfig
+  "JetBrains Mono",
+
+  -- /usr/share/fonts/noto/NotoColorEmoji.ttf, FontConfig
+  -- Assumed to have Emoji Presentation
+  -- Pixel sizes: [128]
+  "Noto Color Emoji",
+
+  -- /usr/share/fonts/TTF/SymbolsNerdFontMono-Regular.ttf, FontConfig
+  "Symbols Nerd Font Mono",
+
+})
+
+config.warn_about_missing_glyphs = false
 config.font_size = 12.0
 config.cell_width = 1.1
 config.line_height = 1.1
@@ -67,9 +89,8 @@ config.adjust_window_size_when_changing_font_size = false
 config.text_background_opacity = 1.0
 -- scroll set
 
--- window set 
+-- window set
 config.window_decorations = 'NONE'
 config.window_close_confirmation = 'NeverPrompt'
 -- and finally, return the configuration to wezterm
 return config
-
