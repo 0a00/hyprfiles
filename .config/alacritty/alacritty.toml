@@ -31,7 +31,6 @@ y = 2
 action = "CreateNewWindow"
 key = "N"
 mods = "Super"
-mode = "AppKeypad"
 
 
 [window]

@@ -5,11 +5,10 @@
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-
-font_family      JetBrainsMono NF ExtraLight
-bold_font        auto
-italic_font      auto
-bold_italic_font auto
+# font_family      JetBrainsMono NF ExtraLight
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. To get a full list of supported fonts use the `kitty
@@ -48,7 +47,7 @@ font_size 12.0
 
 # symbol_map
 
-symbol_map U+1F50B,U+F580,U+E0C0-U+E0C7,U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E6AA,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF,U+F0001-U+F1AF0 Symbols Nerd Font Mono
+symbol_map U+1F50B,U+F580,U+E0C0-U+E0C7,U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E6AA,U+E700-U+E7C5,U+EA60-U+EBEB,U+F000-U+F2E0,U+F300-U+F32F,U+F400-U+F4A9,U+F500-U+F8FF,U+F0001-U+F1AF0 LiterationSerif Nerd Font Mono
 
 #: Map the specified Unicode codepoints to a particular font. Useful
 #: if you need special rendering for some symbols, such as for
@@ -62,7 +61,7 @@ symbol_map U+1F50B,U+F580,U+E0C0-U+E0C7,U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E00
 
 # narrow_symbols
 
-narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 1
+#narrow_symbols U+E0A0-U+E0A3,U+E0C0-U+E0C7 1
 
 #: Usually, for Private Use Unicode characters and some symbol/dingbat
 #: characters, if the character is followed by one or more spaces,
@@ -1119,7 +1118,7 @@ tab_bar_style hidden
 
 #: The foreground and background colors.
 
-background_opacity 0.0
+background_opacity 0.9
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -2457,3 +2456,11 @@ map cmd+n new_os_window_with_cwd
 # Adwaita darker
 include current-theme.conf
 # END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="LiterationSerif Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
