@@ -88,7 +88,7 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
   <img src="screenshot/2.png" alt="Screenshot 2" width="800" style="box-shadow: 10px 10px 20px #888888;">
 </div>
 <div align="center">
-  <img src="screenshot/3.png" alt="Screenshot 3" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/6.png" alt="Screenshot 3" width="800" style="box-shadow: 10px 10px 20px #888888;">
 </div>
 <div align="center">
   <img src="screenshot/4.png" alt="Screenshot 4" width="800" style="box-shadow: 10px 10px 20px #888888;">

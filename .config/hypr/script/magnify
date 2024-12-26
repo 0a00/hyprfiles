@@ -1,7 +1,0 @@
-#!/bin/bash
-#
-ynzoom=$(hyprctl getoption misc:cursor_zoom_factor | grep 'float:' | awk -F ': ' '{print $2}')
-ynzoom=$(echo "$ynzoom > 1" | bc -l)
-if [ $ynzoom -eq 1 ]; then
-  hyprctl keyword misc:cursor_zoom_factor $(echo "$(hyprctl getoption misc:cursor_zoom_factor -j | jq -r '.float') - 0.1" | bc)
-fi
