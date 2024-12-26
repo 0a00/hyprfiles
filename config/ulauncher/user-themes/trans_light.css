@@ -1,0 +1,106 @@
+/**
+ * App Window
+ */
+@define-color bg_color rgba(255,255,255,0.5);
+@define-color window_shadow rgba(0, 0, 0, 0);
+@define-color window_bg @bg_color;
+@define-color window_border_color #b1b1b1;
+@define-color prefs_background #ccc;
+
+/**
+ * Input
+ */
+@define-color selected_bg_color #999;
+@define-color selected_fg_color #fafafa;
+@define-color input_color #555;
+@define-color caret_color lighter(@input_color);
+
+/**
+ * Result items
+ */
+@define-color item_name #333;
+@define-color item_text lighter(@item_name);
+@define-color item_box_selected #D6D6D6;
+@define-color item_text_selected darker(@item_text);
+@define-color item_name_selected @item_name;
+@define-color item_shortcut_color #777;
+@define-color item_shortcut_shadow @window_shadow;
+@define-color item_shortcut_color_sel #444;
+@define-color item_shortcut_shadow_sel lighter(@window_shadow);
+
+.app {
+    box-shadow: 0 0 0px @window_shadow;
+    background-color: @window_bg;
+    border: 0px solid @window_border_color;
+    border-radius: 0px;
+    margin: -20px;
+    min-width: 900px;
+}
+
+.input {
+    caret-color: @caret_color;
+    color: @input_color;
+    font-size: 120%;
+}
+
+/**
+ * Selected text in input
+ */
+.input *:selected,
+.input *:focus,
+*:selected:focus {
+    background-color: alpha (@selected_bg_color, 0.5);
+    color: @selected_fg_color;
+}
+
+.item-text {
+    color: rgba(0,0,0,1);
+}
+.item-name {
+    color: rgba(0,0,0,1);
+    font-size: 120%;
+}
+
+.selected.item-box {
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+
+}
+.selected.item-box .item-text {
+    color: rgba(0,0,0,1);
+}
+.selected.item-box .item-name {
+    color: rgba(0,0,0,1);
+}
+.item-shortcut {
+    color: rgba(0,0,0,0);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0);
+}
+.selected.item-box .item-shortcut {
+    color: rgba(0,0,0,0);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0);
+}
+
+.item-descr {
+    font-size: 80%;
+}
+
+
+/**
+ * Small result item
+ */
+.small-result-item .item-name {
+    font-size: 100%;
+}
+
+.prefs-btn {
+    border-radius: 12px;
+    opacity: 0.8;
+}
+.prefs-btn:hover {
+    background-color: @prefs_background;
+}
+
+.item-highlight {
+    color: #2c74cc
+}

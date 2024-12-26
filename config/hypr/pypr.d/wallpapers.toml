@@ -1,0 +1,9 @@
+[wallpapers]
+path = "~/.config/hypr/images/"
+interval = 60 # change time ,m
+extensions = ["jpg", "jpeg", "png"]
+recurse = true
+unique = true
+# Using swww
+command = "swww img --transition-type any --transition-fps 60 \"[file]\""
+clear_command = "swww clear"
