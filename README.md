@@ -1,10 +1,10 @@
-# Hyprland 配置文件
+# Hyprland 配置文件 ⚙️
 
-## 简介
+## 简介 📝
 
 本仓库包含 Hyprland 合成器的配置文件集合。
 
-## 许可证
+## 许可证 📄
 
 该项目在 MIT 许可证下获得许可。
 
@@ -29,13 +29,13 @@
   <img src="screenshot/1.png" alt="Screenshot 1" width="800" style="box-shadow: 10px 10px 20px #888888;">
 </div>
 
-## 特性
+## 特性 ✨
 
 -  简洁美观的界面
 -  高效的工作流程和快捷键绑定
 -  与流行应用程序的无缝集成
 
-## 安装
+## 安装 🛠️
 
 1. 克隆仓库：
 
@@ -47,7 +47,7 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 
 3. 将配置文件复制到 `~/.config/hypr` 目录。
 
-## 配置
+## 配置 🎛️
 
 配置文件有详细的文档记录，可以轻松自定义。 您可以调整设置的各个方面，包括：
 
@@ -56,7 +56,7 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 -  外观
 -  应用程序
 
-## 组件介绍
+## 组件介绍 🧩
 
 该项目主要使用以下软件：
 
@@ -79,7 +79,7 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 - **Wlogout**: Wayland 注销菜单。
 - **Xsettingsd**: X 设置守护进程。
 
-## 预览
+## 预览 🖼️
 
 <div align="center">
   <img src="screenshot/1.png" alt="Screenshot 1" width="800" style="box-shadow: 10px 10px 20px #888888;">
@@ -100,7 +100,7 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
   <img src="screenshot/9.png" alt="Screenshot 9" width="800" style="box-shadow: 10px 10px 20px #888888;">
 </div>
 
-## 贡献
+## 贡献 🤝
 
 欢迎贡献！ 如果您有任何建议、错误报告或功能请求，请创建问题或提交拉取请求。
 
@@ -108,6 +108,6 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 
 该项目在 MIT 许可证下获得许可。
 
-## Star History
+## Star History 📈
 
 [![Star History Chart](https://api.star-history.com/svg?repos=0a00/hyprfiles&type=Date)](https://star-history.com/#0a00/hyprfiles&Date)
