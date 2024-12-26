@@ -26,7 +26,7 @@
 </div>
 
 <div align="center">
-  <img src="screenshot/1.png" alt="Screenshot 1" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/1.png" alt="Screenshot 1" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 
 ## 特性 ✨
@@ -85,40 +85,40 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
   <img src="screenshot/1.png" alt="Screenshot 1" width="800" style="box-shadow: 10px 10px 20px #888888;">
 </div>
 <div align="center">
-  <img src="screenshot/2.png" alt="Screenshot 2" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/2.png" alt="Screenshot 2" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/3.png" alt="Screenshot 3" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/3.png" alt="Screenshot 3" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/4.png" alt="Screenshot 4" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/4.png" alt="Screenshot 4" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/5.png" alt="Screenshot 5" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/5.png" alt="Screenshot 5" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/6.png" alt="Screenshot 6" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/6.png" alt="Screenshot 6" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/7.png" alt="Screenshot 7" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/7.png" alt="Screenshot 7" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/8.png" alt="Screenshot 8" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/8.png" alt="Screenshot 8" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/9.png" alt="Screenshot 9" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/9.png" alt="Screenshot 9" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/10.png" alt="Screenshot 10" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/10.png" alt="Screenshot 10" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/11.png" alt="Screenshot 11" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/11.png" alt="Screenshot 11" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/12.png" alt="Screenshot 12" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/12.png" alt="Screenshot 12" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 <div align="center">
-  <img src="screenshot/13.png" alt="Screenshot 13" width="800" style="box-shadow: 10px 10px 20px #888888;">
+  <img src="screenshot/13.png" alt="Screenshot 13" width="800" style="box-shadow: 10px 10px 20px #888888; border-radius: 10px;">
 </div>
 
 ## 贡献 🤝
