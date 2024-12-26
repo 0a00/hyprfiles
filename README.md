@@ -56,6 +56,29 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 -  外观
 -  应用程序
 
+## 组件介绍
+
+该项目主要使用以下软件：
+
+- **Hyprland**: 基于 wlroots 的动态平铺式 Wayland 合成器。
+- **Alacritty**: 跨平台、GPU 加速的终端模拟器。
+- **Anyrun**: 快速启动应用程序和执行命令的工具。
+- **Avizo**: 系统状态栏。
+- **Dunst**: 轻量级通知守护进程。
+- **Fastfetch**: 快速获取系统信息的工具。
+- **Gtklock**: GTK+ 锁屏程序。
+- **Hypr**: Hyprland 的配置工具。
+- **Kitty**: 跨平台、GPU 加速的终端模拟器。
+- **Lvim**: Neovim 的配置框架。
+- **Pipewire**: 新一代的 Linux 音视频处理框架。
+- **Ranger**: 终端文件管理器。
+- **Rofi**: 窗口切换器、应用程序启动器和 dmenu 替代品。
+- **Sys64**: 系统监控工具。
+- **Ulauncher**: 应用程序启动器。
+- **Waybar**: 高度可定制的 Wayland 状态栏。
+- **Wlogout**: Wayland 注销菜单。
+- **Xsettingsd**: X 设置守护进程。
+
 ## 预览
 
 <div align="center">
