@@ -111,6 +111,15 @@ git clone https://github.com/0a00/hyprfiles.git ~/.config/hypr
 <div align="center">
   <img src="screenshot/10.png" alt="Screenshot 10" width="800" style="box-shadow: 10px 10px 20px #888888;">
 </div>
+<div align="center">
+  <img src="screenshot/11.png" alt="Screenshot 11" width="800" style="box-shadow: 10px 10px 20px #888888;">
+</div>
+<div align="center">
+  <img src="screenshot/12.png" alt="Screenshot 12" width="800" style="box-shadow: 10px 10px 20px #888888;">
+</div>
+<div align="center">
+  <img src="screenshot/13.png" alt="Screenshot 13" width="800" style="box-shadow: 10px 10px 20px #888888;">
+</div>
 
 ## 贡献 🤝
 
